@@ -44,7 +44,7 @@
    left: 50%;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 411px) {
    .px-24, .px-32, .px-12 {
       padding-left: 1rem !important;
       padding-right: 1rem !important;
