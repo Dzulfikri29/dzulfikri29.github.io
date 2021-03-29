@@ -1,0 +1,70 @@
+html {
+     scroll-behavior: smooth;
+}
+
+@font-face {
+     font-family: 'lato-reg';
+     src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+     font-family: 'poppins-bold';
+     src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+
+body {
+     font-family: 'lato-reg' !important;
+}
+
+.font-bold {
+     font-family: 'poppins-bold' !important;
+}
+
+.fs-100 {
+     font-size: 100px;
+}
+
+.fs-50 {
+     font-size: 50px;
+}
+
+.fs-24 {
+     font-size: 24px;
+}
+
+.fs-18 {
+     font-size: 18px;
+}
+
+/* background */
+.bg-blue  {
+     background-color: #4361EE !important;
+}
+
+.bg-lightblue  {
+     background-color: #ECF3FF !important;
+}
+
+.bg-lightblue2  {
+     background-color: #F5F7FF !important;
+}
+
+.home {
+     background-image: url(../images/Intersect.svg);
+     background-position: top left;
+     background-repeat: no-repeat;
+}
+
+header {
+     z-index: 999999;
+     transition: all 0.5s ease;
+}
+
+.py-10 {
+     padding-top: 5rem !important;
+     padding-bottom: 5rem !important;
+}
+
+.contact-item:hover img {
+     filter: invert(26%) sepia(95%) saturate(1921%) hue-rotate(223deg) brightness(99%) contrast(89%);
+}
